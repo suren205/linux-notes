@@ -74,12 +74,19 @@ Test result: a user in the `sales` group could create files. A user outside the 
 
 ## 6. Mistakes I made and what I learned
 
-- `cd~` does not work. I need a space: `cd ~`
+About cd ~
+- I typed `cd~` many times and got "command not found". Now I remember: a command and its target always need a space between them.
 - `ls -1` (number one) is not the same as `ls -l` (letter L)
-- `>` replaces a file. I emptied a file by mistake. `>>` adds to the end
+About > and >>
+- I put three `echo` commands on one line and my jan.txt became empty. I learned that `>` empties the file first, so I must type one command per line and check with `cat`.
 - A folder needs `x` to enter it with `cd`
 - "Permission denied" on a script is fixed with `chmod +x`, not with `rm`
-- Always check the prompt to know which user and which computer I am on
+About the prompt
+- I ran `cat ./-` on my own laptop instead of the Bandit server and got "No such file". Now I always read the prompt first: `dell@SUREN` is my laptop, `bandit1@bandit` is the server.
+About sudo
+- I tried `sudo` while I was logged in as the test user ravi, and it failed. Only an admin can add a user to a group. A user cannot add himself.
+About the Windows folder
+- Ubuntu first opened in /mnt/c, which is my Windows C: drive. I added `cd ~` to my .bashrc so I always start in my Linux home and keep my Windows files safe.
 - Never share passwords
 
 ## 7. Other practice
