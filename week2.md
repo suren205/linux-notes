@@ -86,8 +86,8 @@ Before changing a settings file: `sudo cp file file.bak`, then check it exists w
 ## 7. Mistakes I made and what I learned
 
 - `-l` (letter L) is not `-1` (number one). The long form `--list` avoids this
-- `systemctl start nginx` needs a space, not a dash
-- Use the Tab key to finish words and avoid typos
+- `systemctl start nginx`
+   I typed `systemctl start-nginx` and the website stayed down. I needed a space: `start nginx`. I only found it because I tested with curl.
 - `ssh` to the Bandit game needs `-p 2220` (the port).
    My ssh login to Bandit failed. The error said "port 22 is not intended". I added `-p 2220` and it worked. Now I read error messages first.
 - `cat ./*` prints every file.
