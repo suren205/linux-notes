@@ -17,7 +17,7 @@ Linux was practised on **Ubuntu 24.04 (WSL)**; Windows labs run on **Hyper-V** o
 | Week | Topic | Notes |
 |---|---|---|
 | 5 | Hyper-V lab, Windows Server 2025, Active Directory, users & groups, domain join | [week5.md](week5.md) |
-| 6 | Group Policy, file shares & permissions | coming soon |
+| 6 | Group Policy, file shares & NTFS permissions, RSAT | [week6.md](week6.md) |
 
 ## 🛠️ Skills
 **Linux**
