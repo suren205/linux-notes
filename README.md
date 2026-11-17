@@ -19,6 +19,7 @@ Linux was practised on **Ubuntu 24.04 (WSL)**; Windows labs run on **Hyper-V** o
 | 5 | Hyper-V lab, Windows Server 2025, Active Directory, users & groups, domain join | [week5.md](week5.md) |
 | 6 | Group Policy, file shares & NTFS permissions, RSAT | [week6.md](week6.md) |
 | 7 | DHCP, DNS records & troubleshooting (real disk-full incident) | [week7.md](week7.md) |
+| 8 | Bulk users from CSV, AD Recycle Bin, Windows Server Backup + Month 2 project | [week8.md](week8.md) |
 
 ## 🛠️ Skills
 **Linux**
