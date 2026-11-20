@@ -12,7 +12,7 @@ Linux was practised on **Ubuntu 24.04 (WSL)**; Windows labs run on **Hyper-V** o
 | 3 | Networking, DNS, SSH keys, firewall (ufw) | [week3.md](week3.md) |
 | 4 | Disks, LVM, backups (tar/rsync), cron automation | [week4.md](week4.md) |
 
-## 🔄 Month 2 – Windows Server & Active Directory (in progress)
+## ✅ Month 2 – Windows Server & Active Directory (completed)
 
 | Week | Topic | Notes |
 |---|---|---|
@@ -44,8 +44,8 @@ Linux was practised on **Ubuntu 24.04 (WSL)**; Windows labs run on **Hyper-V** o
 
 ## 🗺️ Roadmap
 - [x] Month 1 – Linux
-- [ ] Month 2 – Windows Server & Active Directory (in progress)
-- [ ] Month 3 – Virtualization & Storage
+- [x] Month 2 – Windows Server & Active Directory
+- [ ] Month 3 – Virtualization & Storage (in progress)
 - [ ] Month 4 – AWS
 - [ ] Month 5 – Bash & Ansible automation
 - [ ] Month 6 – Portfolio & job hunt
