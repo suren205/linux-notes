@@ -21,6 +21,11 @@ Linux was practised on **Ubuntu 24.04 (WSL)**; Windows labs run on **Hyper-V** o
 | 7 | DHCP, DNS records & troubleshooting (real disk-full incident) | [week7.md](week7.md) |
 | 8 | Bulk users from CSV, AD Recycle Bin, Windows Server Backup + Month 2 project | [week8.md](week8.md) |
 
+## 🔄 Month 3 – Virtualization & Storage (in progress)
+| Week | Topic | Notes |
+|---|---|---|
+| 9 | RAID, Storage Spaces mirror + disk-failure drill, PowerShell reports, NAS vs SAN, iSCSI | [week9.md](week9.md) |
+
 ## 🛠️ Skills
 **Linux**
 - Command line, file permissions (`chmod`, `chown`), users and groups
